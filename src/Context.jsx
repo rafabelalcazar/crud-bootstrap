@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
+import data from './data.json';
 const Context = React.createContext();
 export { Context };
 
 class ContextProvider extends Component {
     state = {
-        categorias: [{
-            name: "Hoteles",
-            price: "30000"
-        },
-        {
-            name: "Restaurantes",
-            price: "45000"
-        }
+        categorias: [data
         ],
     }
     render() {

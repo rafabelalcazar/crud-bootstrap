@@ -6,7 +6,7 @@ class Category extends Component {
     render() {
         return (
             <div className="card">
-                <h1 className="mt-4">${this.props.category.price}</h1>
+                <h2 className="mt-4">${Intl.NumberFormat().format(this.props.category.price)}</h2>
                 <p className="mt-5">{this.props.category.name}</p>
 
             </div>

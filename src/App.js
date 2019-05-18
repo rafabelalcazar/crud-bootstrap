@@ -22,7 +22,7 @@ function App() {
 
               </div>
             </div>
-            <div className="col-md-9 col-12 text-center d-flex justify-content-center">
+            <div className="col-12 col-md-9  text-center d-flex justify-content-center">
               <Categories />
             </div>
 

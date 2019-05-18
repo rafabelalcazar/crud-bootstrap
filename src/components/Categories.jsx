@@ -18,7 +18,6 @@ class Categories extends Component {
                             )
                         }
                     }
-                    {/* <Category name={value.categorias}></Category> */}
                 </Context.Consumer>
 
             </div>

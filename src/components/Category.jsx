@@ -6,8 +6,8 @@ class Category extends Component {
     render() {
         return (
             <div className="card">
-                <h1 className="mt-4">$</h1>
-                <p className="mt-5">Categori Name</p>
+                <h1 className="mt-4">${this.props.category.price}</h1>
+                <p className="mt-5">{this.props.category.name}</p>
 
             </div>
         );

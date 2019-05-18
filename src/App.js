@@ -11,16 +11,18 @@ function App() {
   return (
     <ContextProvider>
       <div className="App">
-        <Navbar />
-        <div className="container-fluid">
+        <div className="container-fluid p-0 fixed-top ">
+          <Navbar />
+        </div>
+        <div className="container-fluid  mt-5">
           <div className="row">
-            <div className="col-3 ">
+            <div className="col-12 col-md-3">
               <div className="m-2 p-3">
                 <Form />
 
               </div>
             </div>
-            <div className="col-9">
+            <div className="col-md-9 col-12 text-center d-flex justify-content-center">
               <Categories />
             </div>
 

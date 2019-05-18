@@ -24,6 +24,13 @@ class ContextProvider extends Component {
                     this.setState({
                         categorias: allCategories
                     })
+                },
+                deleteCategory: category => {
+                    let allCategories = this.state.categorias;
+                    allCategories.pop()
+                    this.setState({
+                        categorias: allCategories
+                    })
                 }
             }}>
                 {this.props.children}

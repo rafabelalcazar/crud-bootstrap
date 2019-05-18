@@ -4,11 +4,12 @@ import './Category.css';
 
 class Category extends Component {
     render() {
+        console.log(this.props);
         return (
-            <div className="card">
-                <h1 className="mt-4">$</h1>
-                <p className="mt-5">Categori Name</p>
 
+            <div className="card">
+                <h2 className="mt-5">${this.props.price}</h2>
+                <p className="mt-3">{this.props.name}</p>
             </div>
         );
     }
